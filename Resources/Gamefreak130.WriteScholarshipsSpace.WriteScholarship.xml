@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseLengthofTimeForCooldown value="7">
+      <!--Base amount of time in sim days the scholarship needs to cool down after completion-->
+    </kBaseLengthofTimeForCooldown>
+    <kCooldownTimeJitter value="1">
+      <!--Maximum deviation from base cooldown time in sim days; must be less than base cooldown time-->
+    </kCooldownTimeJitter>
+    <kWritingPointsPerMinute value="6">
+      <!--Skill points per minute of writing scholarships gained in Writing skill-->
+    </kWritingPointsPerMinute>
+    <kBaseScholarshipChance value="15, 10, 5">
+      <!--Range 0-100: Base percent chance in decimals of getting scholarship; Format: Small, Medium, Large-->
+    </kBaseScholarshipChance>
+    <kScholarshipChanceIncrement value="6, 4, 2">
+      <!--Range 0-100: Increase in percent chance of getting scholarship per level in Writing skill; Format: Small, Medium, Large-->
+    </kScholarshipChanceIncrement>
+    <kScholarshipAmount value="500, 1750, 3000">
+      <!--Amount in Simoleons of scholarship; Format: Small, Medium, Large"-->
+    </kScholarshipAmount>
+    <kScholarshipWriteTime value="60, 150, 240">
+      <!--Amount of time in sim minutes it takes to write scholarship; Format: Small, Medium, Large-->
+    </kScholarshipWriteTime>
+  </Current_Tuning>
+</base>
